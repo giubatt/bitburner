@@ -1,0 +1,24 @@
+{
+  "name": "bitburner",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Giuseppe Battistella <giusbattistella@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently \"tsc --watch\" \"node server.js\""
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.22.1",
+    "@typescript-eslint/parser": "^4.22.1",
+    "concurrently": "^6.0.2",
+    "eslint": "^7.25.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "prettier": "^2.2.1",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
